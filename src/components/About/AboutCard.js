@@ -8,13 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am{" "}
+            <span className="purple">Akshay Pratap Singh </span>
+            from <span className="purple"> UP, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently a student at Lovely Professional University
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            BTech in Computer Science Engineering.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +24,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Listening Music
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -32,9 +32,52 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "What we do now echoes in eternity."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Marcus Aurelius</footer>
+        </blockquote>
+      </Card.Body>
+
+      <Card.Body id="education-section">
+        <blockquote className="blockquote mb-0">
+          <h1>
+            <strong className="purple">Certificates</strong>
+          </h1>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Supervised Machine Learning: Regression and
+              Classification
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Machine Learning for Trading Specialization on
+              Coursera
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> The Bits and Bytes of Computer Networking | by
+              Google
+            </li>
+          </ul>
+        </blockquote>
+      </Card.Body>
+
+      {/* Education Section with ID */}
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <h1>
+            <strong className="purple">Education</strong>
+          </h1>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> B.Tech in Computer Science Engineering - Lovely
+              Professional University (2021 - 2025)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> 12th Grade - CBSE Board (PCM + Computer Science)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> 10th Grade - CBSE Board
+            </li>
+          </ul>
         </blockquote>
       </Card.Body>
     </Card>
