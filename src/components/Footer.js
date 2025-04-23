@@ -6,7 +6,6 @@ import { MdEmail } from "react-icons/md"; // <-- Import Email Icon
 
 function Footer() {
   let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
@@ -50,7 +49,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:akshay@example.com" // <-- Replace with your email
+                href="mailto:apslhvsl@gmail.com" // <-- Replace with your email
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
