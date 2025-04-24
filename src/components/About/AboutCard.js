@@ -38,28 +38,6 @@ function AboutCard() {
         </blockquote>
       </Card.Body>
 
-      <Card.Body id="education-section">
-        <blockquote className="blockquote mb-0">
-          <h1>
-            <strong className="purple">Certificates</strong>
-          </h1>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Supervised Machine Learning: Regression and
-              Classification
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Machine Learning for Trading Specialization on
-              Coursera
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> The Bits and Bytes of Computer Networking | by
-              Google
-            </li>
-          </ul>
-        </blockquote>
-      </Card.Body>
-
       {/* Education Section with ID */}
       <Card.Body>
         <blockquote className="blockquote mb-0">
